@@ -18,30 +18,31 @@ This project is a starting point for a Dart
 a library module containing code that can be shared easily across
 multiple Flutter or Dart projects.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
+For help getting started with Flutter, view our
+[online documentation](https://flutter.io/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-
 ## Props
-| props                   | types           | defaultValues                                                                                                     |
-| :---------------------- | :-------------: | :---------------------------------------------------------------------------------------------------------------: |
-| time                    | DateTime        | Current Time [ DateTime.now() ]                                                                                   |
-| minutesInterval         | int             | 1                                                                                                                 |
-| secondsInterval         | int             | 1                                                                                                                 |
-| is24HourMode            | bool            | true                                                                                                              |
-| isShowSeconds           | bool            | false                                                                                                             |
-| isShowSeconds           | bool            | false                                                                                                             |
-| highlightedTextStyle    | TextStyle       | false                                                                                                             |
-| normalTextStyle         | TextStyle       | false                                                                                                             |
-| itemHeight              | double          | 60.0                                                                                                              |
-| itemWidth               | double          | 45.0                                                                                                              |
-| spacing                 | double          | 20.0                                                                                                              |
-| alignment               | AlignmentGeometry | Alignment.centerRight                                                                                           |
-| isForce2Digits          | bool            | false                                                                                                             |
-| onTimeChange            | TimePickerCallback |                                                                                                                |
+
+| props                |       types        |          defaultValues          |
+| :------------------- | :----------------: | :-----------------------------: |
+| time                 |      DateTime      | Current Time [ DateTime.now() ] |
+| minutesInterval      |        int         |                1                |
+| secondsInterval      |        int         |                1                |
+| is24HourMode         |        bool        |              true               |
+| isShowSeconds        |        bool        |              false              |
+| isShowMinutes        |        bool        |              false              |
+| highlightedTextStyle |     TextStyle      |              false              |
+| normalTextStyle      |     TextStyle      |              false              |
+| itemHeight           |       double       |              60.0               |
+| itemWidth            |       double       |              45.0               |
+| spacing              |       double       |              20.0               |
+| alignment            | AlignmentGeometry  |      Alignment.centerRight      |
+| isForce2Digits       |        bool        |              false              |
+| onTimeChange         | TimePickerCallback |                                 |
 
 ## Usage
+
 ```dart
 import 'package:flutter_time_picker_spinner/flutter_time_picker_spinner.dart';
 
